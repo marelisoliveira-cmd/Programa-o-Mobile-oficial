@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreat(savedInstanceState)
+        super.onCreate(savedInstanceState)
         
         val mensagem = TextView(this)
         mensagem.text = "Olá, Mobile!"
