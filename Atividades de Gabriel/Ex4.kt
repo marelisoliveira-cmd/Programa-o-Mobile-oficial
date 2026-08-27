@@ -2,7 +2,7 @@ package com.example.meuapp
 
 import android.os.Bundle
 import android.widget.TextView
-import Androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate()savedInstanceState: Bundle?) {
