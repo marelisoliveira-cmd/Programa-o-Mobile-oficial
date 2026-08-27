@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         botao.setOnClickListener {
             val tarefa = valor.text.toString().trim()
 
-            resposta.text = if (tarefa.isEmpty()} {
+            resposta.text = if (tarefa.isEmpty()) {
                 "Digite uma tarefa antes de adicionar."
             } else {
                 "Tarefa adicionada: $tarefa"
