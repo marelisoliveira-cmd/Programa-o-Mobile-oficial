@@ -17,7 +17,7 @@ class MainActivity :AppCompatActivity() {
         """.trimIndent ()
 
         val texto = TextView(this)
-        text.tex = informacoes
+        texto.tex = informacoes
         texto.textSize = 18f
         texto.setPadding(32, 32, 32, 32)
 
