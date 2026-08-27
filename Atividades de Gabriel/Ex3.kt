@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreat(savedInstanceState)
+        super.onCreate(savedInstanceState)
 
         val layout = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         botao.setOnClickListener {
-            resposta.text ="Olá, ${nome.text.tostring().trim()}!"
+            resposta.text ="Olá, ${nome.text.toString().trim()}!"
         }
 
         layout.addView(titulo)
@@ -49,21 +49,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
-        }
-        }
-        }
-
-
-
-
-
-
-
-
-
-        }
-    }
 
 
 
