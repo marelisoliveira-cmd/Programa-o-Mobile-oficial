@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         layout.addView(valor)
-        layout.addView(botão)
+        layout.addView(botao)
         layout.addView(resposta)
         setContentView(layout)
       }
