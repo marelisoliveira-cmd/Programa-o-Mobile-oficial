@@ -19,14 +19,15 @@ class MainActivity : AppCompatActivity() {
         }
 
         val titulo = TextView(this).apply {
-            text = "Boas vindas"
+            text = "Boas-vindas"
             textSize = 24f
-
+        }
+        
         val nome = EditText(this).apply {
             hint = "Digite seu nome"
         }
 
-        Val botao = Button(this).apply {
+        val botao = Button(this).apply {
             text = "Mostrar nome"
 
         }
@@ -47,14 +48,3 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-}
